@@ -1,10 +1,12 @@
-on:
-  push:
-    branches: [mail]
 permissions:
   contents: read
   packages: write
   pull-requests: write
+
+on:
+  push:
+    branches: [mail]
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest

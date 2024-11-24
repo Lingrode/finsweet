@@ -6,25 +6,31 @@
     <title>Vanilla App Template</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sen:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
     <script type="module" crossorigin src="/finsweet/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/finsweet/assets/index-BlcadHDP.css">
+    <link rel="stylesheet" crossorigin href="/finsweet/assets/index-DA8jS-RD.css">
   </head>
   <body>
     <header class="header">
   <div class="container">
     <div class="header__inner">
       <a class="header__logo" href="#">
-        <img src="" alt="Logo" />
+        <img src="../img/logo.svg" alt="Logo" />
       </a>
       <nav class="header__nav">
         <ul class="header__nav-list">
           <li class="header__nav-item">
-            <a class="header__nav-link" href="#">Home</a>
+            <a class="header__nav-link" href="../blog.html">Home</a>
           </li>
           <li class="header__nav-item">
             <a class="header__nav-link" href="#">Blog</a>
@@ -36,10 +42,37 @@
             <a class="header__nav-link" href="#">Contact us</a>
           </li>
         </ul>
-        <button class="header__nav-btn">Subscribe</button>
+        <button class="header__nav-btn btn">Subscribe</button>
       </nav>
     </div>
   </div>
+
+  <div class="header__mobile">
+    <a class="header__logo" href="#">
+      <img src="../img/logo.svg" alt="Logo" />
+    </a>
+    <div class="burger-menu">
+      <span class="item"></span>
+    </div>
+  </div>
+
+  <nav class="header__nav mobile-menu">
+    <ul class="header__nav-list">
+      <li class="header__nav-item">
+        <a class="header__nav-link" href="../blog.html">Home</a>
+      </li>
+      <li class="header__nav-item">
+        <a class="header__nav-link" href="#">Blog</a>
+      </li>
+      <li class="header__nav-item">
+        <a class="header__nav-link" href="#">About Us</a>
+      </li>
+      <li class="header__nav-item">
+        <a class="header__nav-link" href="#">Contact us</a>
+      </li>
+    </ul>
+    <button class="header__nav-btn btn">Subscribe</button>
+  </nav>
 </header>
 
 

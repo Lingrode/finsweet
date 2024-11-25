@@ -17,7 +17,7 @@
   <div class="container">
     <div class="header__inner">
       <a class="header__logo" href="#">
-        <img src="{=$image-path}" alt="Logo" />
+        <img src="{=$logo-path}" alt="Logo" />
       </a>
       <nav class="header__nav">
         <ul class="header__nav-list">
@@ -41,7 +41,7 @@
 
   <div class="header__mobile">
     <a class="header__logo" href="#">
-      <img src="{=$image-path}" alt="Logo" />
+      <img src="{=$logo-path}" alt="Logo" />
     </a>
     <div class="burger-menu">
       <span class="item"></span>
@@ -75,21 +75,17 @@
     <div class="footer__inenr">
       <div class="footer__top">
         <a class="footer__logo" href="#">
-          <img src="../img/logo.svg" alt="Logo" />
+          <img src="{=$logo-path}" alt="Logo" />
         </a>
         <nav class="footer__nav">
           <ul class="footer__nav-list">
             <li class="footer__nav-item">
-              <a
-                class="footer__nav-link nav-link nav-link"
-                href="../blog.html"
+              <a class="footer__nav-link nav-link nav-link" href="../blog.html"
                 >Home</a
               >
             </li>
             <li class="footer__nav-item">
-              <a class="footer__nav-link nav-link nav-link" href="#"
-                >Blog</a
-              >
+              <a class="footer__nav-link nav-link nav-link" href="#">Blog</a>
             </li>
             <li class="footer__nav-item">
               <a class="footer__nav-link nav-link nav-link" href="#"
@@ -164,10 +160,7 @@
           >
             Hello@finsweet.com
           </a>
-          <a
-            class="footer__contacts-phone nav-link"
-            href="tel:02079932905"
-          >
+          <a class="footer__contacts-phone nav-link" href="tel:02079932905">
             020 7993 2905
           </a>
         </div>

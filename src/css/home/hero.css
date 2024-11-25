@@ -1,0 +1,47 @@
+.hero {
+  background-image: url("../../img/hero-img.png");
+  background-size: contain;
+}
+
+.gradient {
+  background: radial-gradient(71.59% 72.01% at 75% 0%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 100%);
+  background-size: cover;
+}
+
+.hero__inner {
+  padding: 128px 0 182px;
+}
+
+.hero__subtitle {
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 20px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+.hero__subtitle span {
+  font-weight: 900;
+}
+
+.hero__title {
+  color: #ffffff;
+  max-width: 860px;
+  margin-bottom: 24px;
+}
+
+.hero__info {
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.hero__info span {
+  color: var(--color-yellow);
+}
+
+.hero__text {
+  color: #fff;
+  max-width: 600px;
+  margin-bottom: 50px;
+}

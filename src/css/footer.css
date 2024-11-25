@@ -1,0 +1,95 @@
+.footer {
+  background-color: var(--color-primary);
+  padding: 60px 0;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 55px;
+}
+
+.footer__nav-list {
+  display: flex;
+  gap: 24px;
+}
+
+.footer__subscribe {
+  display: flex;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 80px 64px;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.footer__subscribe-title {
+  color: #fff;
+}
+
+.footer__subscribe-form {
+  display: flex;
+  gap: 24px;
+  position: relative;
+}
+
+.footer__subscribe-input {
+  align-self: baseline;
+  border: 1px solid var(--color-dark-grey);
+  padding: 0 25px;
+  background-color: transparent;
+  height: 56px;
+  color: #fff;
+}
+
+.footer__subscribe-btn {
+  align-self: baseline;
+}
+
+.icon-success {
+  position: absolute;
+  left: 249px;
+  top: 50%;
+  transform: translateY(-50%);
+  visibility: hidden;
+}
+
+.icon-success.visible {
+  visibility: visible;
+}
+
+.footer__subscribe-error {
+  position: absolute;
+  color: #fff;
+  display: none;
+  bottom: -30px;
+  font-size: 12px;
+}
+
+.footer__subscribe-error.visible {
+  display: block;
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__social {
+  display: flex;
+  gap: 25px;
+}
+
+.footer__contacts-text,
+.footer__contacts-email,
+.footer__contacts-phone {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer__social-link svg path {
+  transition: all 0.3s;
+}
+
+.footer__social-link svg:hover path {
+  fill: #fff;
+}

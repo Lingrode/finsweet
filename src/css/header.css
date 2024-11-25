@@ -18,17 +18,14 @@
 .header__nav-list {
   display: flex;
   gap: 24px;
-  list-style: none;
-  padding: 0;
-}
-
-.header__nav-link {
-  color: #fff;
-  text-decoration: none;
 }
 
 .header__nav-btn {
   background-color: #fff;
+}
+
+.header__nav-btn:hover {
+  background-color: #d6d6d6;
 }
 
 .header__mobile {

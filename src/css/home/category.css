@@ -1,0 +1,41 @@
+.category {
+  margin-bottom: 128px;
+}
+
+.category__title {
+  text-align: center;
+  margin-bottom: 48px;
+  text-transform: capitalize;
+}
+
+.category__list {
+  display: flex;
+  gap: 32px;
+}
+
+.category__item {
+  padding: 32px;
+  border: 1px solid rgb(109 110 118 / 30%);
+  transition:
+    background-color 0.3s,
+    border-color 0.3s;
+}
+
+.category__item:hover {
+  background-color: var(--color-yellow);
+  border-color: var(--color-yellow);
+}
+
+.category__item .icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 10px;
+}
+
+.category__item-title {
+  margin-bottom: 4px;
+}
+
+.category__item-title a {
+  color: inherit;
+}

@@ -1,0 +1,28 @@
+.started {
+  margin-bottom: 128px;
+}
+
+.started__inner {
+  position: relative;
+}
+
+.started__wrapper {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  padding: 80px;
+  max-width: 706px;
+}
+
+.started__caption {
+  margin-bottom: 24px;
+}
+
+.started__title {
+  margin-bottom: 16px;
+}
+
+.started__text {
+  margin-bottom: 32px;
+}

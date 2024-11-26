@@ -1,0 +1,63 @@
+.about {
+  margin-bottom: 128px;
+}
+
+.about__inner {
+  background-color: var(--color-lavender);
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  position: relative;
+  padding: 96px 100px 96px 80px;
+}
+
+.about__inner::after,
+.about__inner::before {
+  content: "";
+  position: absolute;
+  height: 23px;
+  top: -23px;
+  right: 0;
+}
+
+.about__inner::after {
+  width: 282px;
+  background-color: var(--color-purple);
+}
+
+.about__inner::before {
+  width: 779px;
+  background-color: var(--color-yellow);
+  right: 282px;
+}
+
+.about__caption,
+.mision__caption {
+  margin-bottom: 24px;
+}
+
+.about__title {
+  max-width: 490px;
+  letter-spacing: -2px;
+  margin-bottom: 16px;
+}
+
+.about__text {
+  margin-bottom: 16px;
+}
+
+.about__link {
+  font-family: "Sen", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--color-purple);
+}
+
+.mision__wrapper {
+  max-width: 510px;
+}
+
+.mision__title {
+  margin-bottom: 16px;
+}

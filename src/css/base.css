@@ -58,6 +58,7 @@ h6 {
 
 p {
   margin: 0;
+  color: var(--color-medium-grey);
 }
 
 h1 {
@@ -162,4 +163,12 @@ h5 {
   width: 2px;
   height: 15px;
   background-color: var(--color-dark-grey);
+}
+
+.caption {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 20px;
+  color: var(--color-primary);
 }

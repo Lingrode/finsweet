@@ -9,6 +9,10 @@
   justify-content: space-between;
 }
 
+.header__logo {
+  height: 29px;
+}
+
 .header__nav {
   display: flex;
   align-items: center;

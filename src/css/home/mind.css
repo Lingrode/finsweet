@@ -1,0 +1,110 @@
+.mind {
+  margin-bottom: 128px;
+}
+
+.mind__inner {
+  background-color: var(--color-light-yellow);
+  padding: 80px 111px 75px;
+  display: flex;
+  position: relative;
+}
+
+.mind__wrapper {
+  padding-right: 80px;
+  border-right: 1px solid rgb(109, 110, 118);
+  margin-top: 12px;
+}
+
+.mind__caption {
+  margin-bottom: 12px;
+}
+
+.mind__title {
+  margin-bottom: 16px;
+}
+
+.swiper.mind__slider {
+  width: 100%;
+  height: 100%;
+}
+
+.mind__item.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  padding: 0 63px 0 95px;
+}
+
+.mind__item-text,
+.mind__item-name {
+  font-family: "Sen", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--color-primary);
+}
+
+.mind__item-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.button__wrapper {
+  position: absolute;
+  right: 111px;
+  bottom: 76px;
+  z-index: 10;
+  background-color: var(--color-light-yellow);
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 25px;
+  padding: 10px 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 11.5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: var(--color-primary);
+  transform: scale(1.2);
+}
+
+.swiper-button-next:hover .icon,
+.swiper-button-prev:hover .icon {
+  color: #fff;
+}
+
+.swiper-button-next .icon,
+.swiper-button-prev .icon {
+  width: 25px;
+  height: 12px;
+}
+
+.swiper-button-next .icon {
+  transform: rotateY(180deg);
+}
+
+.swiper-button-disabled {
+  background-color: #dddddd;
+}
+
+.swiper-button-disabled:hover {
+  background-color: #dddddd;
+  transform: unset;
+}
+
+.swiper-button-disabled .icon,
+.swiper-button-disabled:hover .icon {
+  color: #ababab;
+}

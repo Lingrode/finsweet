@@ -86,10 +86,13 @@
   color: rgba(255, 255, 255, 0.7);
 }
 
-.footer__social-link svg path {
+.footer__social .icon {
+  color: var(--color-medium-grey);
   transition: all 0.3s;
+  width: 16px;
+  height: 16px;
 }
 
-.footer__social-link svg:hover path {
-  fill: #fff;
+.footer__social-link svg:hover {
+  color: var(--color-lavender);
 }

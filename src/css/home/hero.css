@@ -40,8 +40,12 @@
   margin-bottom: 16px;
 }
 
-.hero__info span {
+.hero__info a {
   color: var(--color-yellow);
+}
+
+.hero__info .page-link:hover::after {
+  background-color: var(--color-yellow);
 }
 
 .hero__text {

@@ -43,10 +43,13 @@
   gap: 16px;
 }
 
-.authors__social-link svg path {
-  transition: fill 0.3s;
+.authors__social-link .icon {
+  color: var(--color-primary);
+  width: 16px;
+  height: 16px;
+  transition: color 0.3s;
 }
 
-.authors__social-link:hover svg path {
-  fill: var(--color-yellow);
+.authors__social-link:hover .icon {
+  color: var(--color-yellow);
 }

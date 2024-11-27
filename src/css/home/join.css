@@ -1,0 +1,21 @@
+.join {
+  margin-bottom: 128px;
+}
+
+.join__inner {
+  max-width: 414px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.join__title {
+  margin-bottom: 16px;
+}
+
+.join__text {
+  margin-bottom: 32px;
+}
+
+.join__link {
+  margin: 0 auto;
+}

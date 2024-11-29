@@ -53,3 +53,19 @@
 .authors__social-link:hover .icon {
   color: var(--color-yellow);
 }
+
+@media screen and (max-width: 768px) {
+  .authors__list {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .authors {
+    margin-bottom: 80px;
+  }
+
+  .authors__title {
+    margin-bottom: 25px;
+  }
+}

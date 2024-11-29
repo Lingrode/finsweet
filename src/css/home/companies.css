@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 74px;
 }
 
@@ -31,4 +32,19 @@
   height: 32px;
   color: #282938;
   opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .companies__list {
+    gap: 40px;
+  }
+
+  .companies__item:first-child {
+    flex-basis: 100%;
+  }
+
+  .companies__item-caption,
+  .companies__item-text {
+    text-align: center;
+  }
 }

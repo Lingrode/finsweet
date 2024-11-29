@@ -26,3 +26,32 @@
 .started__text {
   margin-bottom: 32px;
 }
+
+@media screen and (max-width: 1158px) {
+  .started__img {
+    max-width: 100%;
+  }
+
+  .started__wrapper {
+    padding: 50px;
+    max-width: 620px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .started__img {
+    display: block;
+  }
+
+  .started__wrapper {
+    position: initial;
+    max-width: 100%;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .started {
+    margin-bottom: 80px;
+  }
+}

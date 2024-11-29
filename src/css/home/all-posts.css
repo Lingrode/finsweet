@@ -78,6 +78,7 @@
 
 .all-posts__item-link {
   color: inherit;
+  display: block;
 }
 
 @media screen and (max-width: 1158px) {

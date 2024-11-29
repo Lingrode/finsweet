@@ -60,3 +60,71 @@
 .mision__title {
   margin-bottom: 16px;
 }
+
+@media screen and (max-width: 1158px) {
+  .about__inner {
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 70px 80px;
+  }
+
+  .about__inner::before,
+  .about__inner::after {
+    height: 20px;
+    top: -20px;
+  }
+
+  .about__inner::before {
+    width: 43%;
+    right: 17%;
+  }
+
+  .about__inner::after {
+    width: 17%;
+  }
+
+  .about__title {
+    max-width: 100%;
+  }
+
+  .mision__wrapper {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__inner {
+    padding: 40px 30px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .about {
+    margin-bottom: 80px;
+  }
+
+  .about__inner {
+    padding: 20px 15px;
+    gap: 50px;
+  }
+
+  .about__inner::before,
+  .about__inner::after {
+    height: 15px;
+    top: -15px;
+  }
+
+  .about__inner::before {
+    width: 45%;
+    right: 20%;
+  }
+
+  .about__inner::after {
+    width: 20%;
+  }
+
+  .about__title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}

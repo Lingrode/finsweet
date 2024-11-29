@@ -190,4 +190,23 @@ h5 {
     font-size: 40px;
     line-height: 52px;
   }
+
+  h3 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  h4 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  h5 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .btn {
+    padding: 12px 35px;
+  }
 }

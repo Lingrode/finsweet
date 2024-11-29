@@ -19,3 +19,9 @@
 .join__link {
   margin: 0 auto;
 }
+
+@media screen and (max-width: 360px) {
+  .join {
+    margin-bottom: 80px;
+  }
+}

@@ -39,3 +39,32 @@
 .category__item-title a {
   color: inherit;
 }
+
+@media screen and (max-width: 1158px) {
+  .category__list {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .category__item {
+    max-width: calc((100% - 32px) / 2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .category__list {
+    gap: 20px;
+  }
+
+  .category__item {
+    text-align: center;
+    padding: 15px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .category {
+    margin-bottom: 80px;
+  }
+}

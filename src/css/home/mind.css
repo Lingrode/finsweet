@@ -108,3 +108,79 @@
 .swiper-button-disabled:hover .icon {
   color: #ababab;
 }
+
+@media screen and (max-width: 1158px) {
+  .mind__inner {
+    padding: 60px 50px 120px;
+  }
+
+  .mind__wrapper {
+    padding-right: 50px;
+  }
+
+  .mind__item.swiper-slide {
+    padding: 0 25px 0 60px;
+    gap: 100px;
+  }
+
+  .button__wrapper {
+    right: 50px;
+    bottom: 46px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mind__inner {
+    flex-direction: column;
+    gap: 60px;
+    padding: 40px 20px 100px;
+  }
+
+  .mind__wrapper {
+    border: none;
+    padding: 0;
+  }
+
+  .mind__item.swiper-slide {
+    padding: 0;
+    gap: 60px;
+  }
+
+  .mind__item-text,
+  .mind__item-name {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .button__wrapper {
+    right: 20px;
+    bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .mind {
+    margin-bottom: 80px;
+  }
+
+  .mind__inner {
+    padding: 40px 20px 70px;
+  }
+
+  .button__wrapper {
+    right: 20px;
+    bottom: 10px;
+    gap: 20px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    padding: 12px 5.5px;
+  }
+
+  .swiper-button-next .icon,
+  .swiper-button-prev .icon {
+    width: 23px;
+    height: 10px;
+  }
+}

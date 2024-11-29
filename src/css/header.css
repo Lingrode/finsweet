@@ -52,6 +52,7 @@
   background-color: var(--color-primary);
   display: flex;
   flex-direction: column;
+  z-index: 10;
 }
 
 .mobile-menu.visible {
@@ -114,6 +115,12 @@
 }
 
 @media screen and (max-width: 768px) {
+  .header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+
   .header__inner {
     display: none;
   }

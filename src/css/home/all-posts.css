@@ -75,3 +75,22 @@
 .all-posts__item-link {
   color: inherit;
 }
+
+@media screen and (max-width: 1158px) {
+  .hero {
+    background-position: center;
+  }
+  .posts__inner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .post__image,
+  .all-posts__container {
+    width: 100%;
+  }
+
+  .all-posts__item-title {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,61 @@
+.button-up {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background-color: var(--color-primary);
+  bottom: 50px;
+  right: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.5s;
+}
+
+.button-up:hover {
+  animation: button-up 1.5s infinite;
+}
+
+.button-up.white {
+  background-color: var(--color-lavender);
+}
+
+.button-up.white .icon {
+  color: var(--color-primary);
+}
+
+.button-up .icon {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .button-up {
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .button-up .icon {
+    width: 24px;
+    height: 25px;
+  }
+}
+
+@keyframes button-up {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}

@@ -13,6 +13,10 @@
   height: 29px;
 }
 
+.footer__logo .icon {
+  color: #fff;
+}
+
 .footer__nav-list {
   display: flex;
   gap: 24px;
@@ -182,7 +186,7 @@
     line-height: 36px;
   }
 
-  .footer__subscribe-form {
+  .footer__subscribe-input {
     max-width: 240px;
   }
 

@@ -1,6 +1,5 @@
 const buttonUp = document.querySelector('.button-up');
 const footer = document.querySelector('.footer');
-const mindSection = document.querySelector('.mind');
 
 buttonUp.addEventListener('click', () => {
   window.scrollTo({
@@ -29,20 +28,4 @@ const observeButtonUp = () => {
 
 observeButtonUp();
 
-const observeListener = () => {
-  const observer = new IntersectionObserver(
-    ([entry]) => {
-      if (entry.isIntersecting) {
-        window.addEventListener('resize', observeButtonUp);
-      } else window.removeEventListener('resize', observeButtonUp);
-    },
-    {
-      root: document,
-      threshold: 0.1,
-    }
-  );
-
-  observer.observe(mindSection);
-};
-
-observeListener();
+export { observeButtonUp };

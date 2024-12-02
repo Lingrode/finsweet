@@ -6,17 +6,35 @@
     <title>Document</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sen:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/blog.css" />
   </head>
   <body>
-    <load src="./partials/header.html" />
+    <load src="./partials/header.html" icons-path="./img/sprite.svg" />
 
-    <main></main>
+    <main>
+      <load
+        src="./partials/blog/hero.html"
+        image-path="./img/blog-hero-img.jpeg"
+      />
+      <load src="./partials/button-top.html" icons-path="./img/sprite.svg" />
+    </main>
 
-    <load src="./partials/footer.html" />
+    <load src="./partials/footer.html" icons-path="./img/sprite.svg" />
+
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="./js/header.js"></script>
+    <script type="module" src="./js/footer.js"></script>
   </body>
 </html>

@@ -1,10 +1,10 @@
 const buttonUp = document.querySelector('.button-up');
 const footer = document.querySelector('.footer');
 const navLinks = document.querySelectorAll('.nav-link');
-const path = window.location.pathname;
+let path = location.pathname;
 
 document.addEventListener('load', () => {
-  window.location.pathname = '/index.html';
+  location.pathname = path + 'index.html';
 });
 
 const pageMap = {

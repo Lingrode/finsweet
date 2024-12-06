@@ -3,8 +3,10 @@ const footer = document.querySelector('.footer');
 const navLinks = document.querySelectorAll('.nav-link');
 let path = location.pathname;
 
-document.addEventListener('load', () => {
-  location.pathname = path + 'index.html';
+document.addEventListener('DOMContentLoaded', () => {
+  if (path === '/finsweet/' || path === '/finsweet') {
+    location.replace('/finsweet/index.html');
+  }
 });
 
 const pageMap = {

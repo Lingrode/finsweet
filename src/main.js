@@ -3,9 +3,13 @@ const footer = document.querySelector('.footer');
 const navLinks = document.querySelectorAll('.nav-link');
 const path = window.location.pathname;
 
+document.addEventListener('load', () => {
+  window.location.pathname = '/index.html';
+});
+
 const pageMap = {
-  '/index.html': 'Home',
-  '/blog.html': 'Blog',
+  '/finsweet/index.html': 'Home',
+  '/finsweet/blog.html': 'Blog',
 };
 
 navLinks.forEach((el, i) => {

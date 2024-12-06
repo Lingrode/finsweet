@@ -1,5 +1,16 @@
 const buttonUp = document.querySelector('.button-up');
 const footer = document.querySelector('.footer');
+const navLinks = document.querySelectorAll('.nav-link');
+const path = window.location.pathname;
+
+const pageMap = {
+  '/index.html': 'Home',
+  '/blog.html': 'Blog',
+};
+
+navLinks.forEach((el, i) => {
+  if (pageMap[path] === el.textContent) el.classList.add('active');
+});
 
 buttonUp.addEventListener('click', () => {
   window.scrollTo({

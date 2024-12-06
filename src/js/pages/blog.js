@@ -2,11 +2,14 @@ import axios from 'axios';
 import { observeListener } from '../observe';
 
 const postItems = document.querySelectorAll('.posts__item');
+const categoriesTitle = document.querySelector('.category__title');
 
 const BASE_URL = 'https://jsonplaceholder.org';
+const path = window.location.pathname;
 
-for (const item of postItems) {
-  console.log(item);
+if (path === '/blog.html') {
+  categoriesTitle.textContent = 'All Categories';
+  categoriesTitle.style.textAlign = 'left';
 }
 
 const fetchPosts = async () => {

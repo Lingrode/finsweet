@@ -1,4 +1,4 @@
-import"./assets/footer-Dg_39VAe.js";import{a}from"./assets/vendor-BQLDhyXy.js";const n=document.querySelectorAll(".posts__item"),r=document.querySelector(".category__title"),l="https://jsonplaceholder.org",i=window.location.pathname;i==="/blog.html"&&(r.textContent="All Categories",r.style.textAlign="left");const p=async()=>(await a(`${l}/posts`)).data,m=t=>{const{title:s,content:e,category:o}=t,c=e.split(".").slice(0,3).join(".");return`
+import"./assets/footer-D4aJu8yR.js";import{a}from"./assets/vendor-BQLDhyXy.js";const n=document.querySelectorAll(".posts__item"),r=document.querySelector(".category__title"),l="https://jsonplaceholder.org",i=window.location.pathname;i==="/blog.html"&&(r.textContent="All Categories",r.style.textAlign="left");const p=async()=>(await a(`${l}/posts`)).data,m=t=>{const{title:s,content:e,category:o}=t,c=e.split(".").slice(0,3).join(".");return`
     <div class="posts__item-wrapper">
       <a class="posts__item-subtitle" href="#">${o}</a>
       <h3 class="posts__item-title"><a href="#">${s}</a></h3>

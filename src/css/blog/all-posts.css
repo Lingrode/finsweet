@@ -85,3 +85,31 @@
   line-height: 32px;
   letter-spacing: 0px;
 }
+
+@media screen and (max-width: 1158px) {
+  .posts__item-img {
+    max-width: 330px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .posts__list {
+    gap: 20px;
+  }
+
+  .posts__item {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--color-dark-grey);
+  }
+
+  .posts__item:last-child {
+    border-bottom: none;
+  }
+
+  .posts__item-img {
+    max-width: 100%;
+  }
+}

@@ -14,7 +14,7 @@ const pageMap = {
   '/finsweet/blog.html': 'Blog',
 };
 
-navLinks.forEach((el, i) => {
+navLinks.forEach(el => {
   if (pageMap[path] === el.textContent) el.classList.add('active');
 });
 

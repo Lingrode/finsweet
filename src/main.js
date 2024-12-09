@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 const pageMap = {
   '/finsweet/index.html': 'Home',
   '/finsweet/blog.html': 'Blog',
+  '/finsweet/about.html': 'About Us',
 };
 
 navLinks.forEach(el => {

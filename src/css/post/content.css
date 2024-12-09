@@ -83,3 +83,15 @@
 .content__article-item:last-child {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .content {
+    margin-top: 53px;
+    padding-top: 50px;
+  }
+
+  .content__top,
+  .content__img {
+    margin-bottom: 30px;
+  }
+}

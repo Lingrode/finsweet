@@ -1,0 +1,32 @@
+.top {
+  margin-top: 80px;
+  padding-top: 80px;
+}
+
+.top__container {
+  max-width: 1133px;
+}
+
+.top__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.top__wrapper {
+  background-color: #fff;
+  padding: 64px;
+}
+
+.top__subtitle {
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
+}
+
+.top__text {
+  max-width: 477px;
+}
